@@ -1,0 +1,18 @@
+:root {
+  color-scheme: dark;
+  --bg: #07111f;
+  --panel: rgba(10, 20, 38, 0.82);
+  --border: rgba(148, 163, 184, 0.16);
+  --text: #e5eefb;
+  --muted: #93a4bf;
+  --accent: #5eead4;
+  --accent-2: #60a5fa;
+  --good: #22c55e;
+  --bad: #ef4444;
+  --warn: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: radial-gradient(circle at top, #10213d 0%, var(--bg) 48%); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+body { min-height: 100vh; }
